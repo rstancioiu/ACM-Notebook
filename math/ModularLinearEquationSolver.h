@@ -1,3 +1,4 @@
+// Stanford Notebook
 #include <vector>
 #include "ExtendedEuclid.h"
 

@@ -35,7 +35,7 @@ void hopcroft_karp()
 	bool change = true;
 	while(change)
 	{
-		change = true;
+		change = false;
 		fill(vis, vis+n+1, false);
 		for(int i=1; i<=n; ++i)
 			if(!l[i])

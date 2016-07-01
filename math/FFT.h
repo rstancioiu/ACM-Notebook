@@ -7,7 +7,7 @@ struct cpx
 	double b;
 	double modsq(void) const{ return a*a+b*b; }
 	cpx bar(void) const {return cpx(a,-b);}
-}
+};
 
 cpx b[N+100],c[N+100],B[N+100],C[N+100]; 
 int a[N+100], int x[N+100]; 
